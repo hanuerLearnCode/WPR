@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Board</title>
+    <style>
+        h2 {
+            display: flex;
+            justify-content: center;
+        }
+        .card-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+  
+        .card-container img {
+          width: 100px;
+          height: 150px;
+          margin: 10px;
+          transition: 0.3s ease-in-out;
+          cursor: pointer;
+        }
+  
+        .card-container img.enlarged {
+          height: 200px;
+          width: 150px;
+        }
+      </style>
+</head>
+<body>
+    <h2>Cards Board</h2>
+    <div class="card-container"></div>
+    <script src="cards.js"></script>
+</body>
+</html>
